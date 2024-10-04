@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11</title>
+    <link rel="stylesheet" href="ejercicio11(parte2).css">
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <form action="" method="get">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="40"><br><br>
+
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" maxlength="40"><br><br>
+
+        <label>Sexo:</label><br>
+        <div class="sexo-group">
+            <input type="radio" id="hombre" name="sexo" value="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer">
+            <label for="mujer">Mujer</label>
+        </div>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <input type="checkbox" id="novedades" name="novedades" checked>
+        <label for="novedades">Deseo recibir información sobre novedades y ofertas.</label><br><br>
+
+        <input type="checkbox" id="condiciones" name="condiciones">
+        <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</label><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
